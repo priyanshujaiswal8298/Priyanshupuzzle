@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanshu Puzzle</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #fffde7);
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #00796b;
+    }
+    .puzzle {
+      margin: 20px auto;
+      max-width: 500px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 80%;
+      margin-top: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #00796b;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #004d40;
+    }
+    .result {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ Welcome to Priyanshu Puzzle ✨</h1>
+
+  <div class="puzzle">
+    <h2>Today's Puzzle</h2>
+    <p>Which box comes next in the pattern? A1, B2, C3, D4, ?</p>
+    <input type="text" id="userAnswer" placeholder="Enter your answer" />
+    <button onclick="checkAnswer()">Submit</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script>
+    function checkAnswer() {
+      const correctAnswer = "E5";
+      const userAnswer = document.getElementById("userAnswer").value.trim().toUpperCase();
+      const result = document.getElementById("result");
+
+      if (userAnswer === correctAnswer) {
+        result.innerHTML = "🎉 Correct! You're awesome!";
+        result.style.color = "green";
+      } else {
+        result.innerHTML = "❌ Oops! Try again.";
+        result.style.color = "red";
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+✅ आपकी वेबसाइट का कोड HTML में तैयार हो गया है! अब इसे GitHub पर लाइव करने के लिए:
+
+अगले स्टेप्स:
+
+1. GitHub पर जाएं और अपनी repository Priyanshu-puzzle खोलें।
+
+
+2. बाईं ओर "Add file" → "Create new file" पर क्लिक करें।
+
+
+3. फ़ाइल का नाम डालें: index.html
+
+
+4. ऊपर वाला कोड कॉपी करके उस फाइल में पेस्ट करें।
+
+
+5. नीचे स्क्रॉल करके “Commit new file” पर क्लिक करें।
+
+
+
+पब्लिश करने के लिए:
+
+1. ऊपर “Settings” में जाएं।
+
+
+2. बाईं ओर "Pages" चुनें।
+
+
+3. Branch: main और Folder: / (root) सिलेक्ट करें।
+
+
+4. “Save” पर क्लिक करें।
+
+
+5. 1-2 मिनट में आपकी वेबसाइट लाइव हो जाएगी — लिंक होगा:
+
+
+
+https://priyanshujaiswal8298.github.io/Priyanshu-puzzle/
+
+😎 बोलो कब भेजूं अगला puzzle या leaderboard feature?
+
